@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.digitalhouse.desafioandroid">
+    package="br.com.digitalhouse.entregavel02">
 
     <application
         android:allowBackup="true"
@@ -9,18 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".views.activitys.DetalhePratoActivity"/>
-        <activity android:name=".views.activitys.CardapioRestauranteActivity" />
-        <activity android:name=".views.activitys.HomeActivity"/>
-        <activity android:name=".views.activitys.CadastroActivity" />
-        <activity android:name=".views.activitys.LoginActivity" />
-        <activity android:name=".views.activitys.SplashActivity">
+        <activity android:name="br.com.digitalhouse.entregavel02.views.activities.DetalhePratoActivity"/>
+        <activity android:name="br.com.digitalhouse.entregavel02.views.activities.CardapioRestauranteActivity" />
+        <activity android:name="br.com.digitalhouse.entregavel02.views.activities.HomeActivity"/>
+        <activity android:name="br.com.digitalhouse.entregavel02.views.activities.CadastroActivity" />
+        <activity android:name="br.com.digitalhouse.entregavel02.views.activities.LoginActivity" />
+        <activity android:name="br.com.digitalhouse.entregavel02.views.activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
     <uses-permission android:name="android.permission.VIBRATE" />

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.activitys.CadastroActivity">
+    tools:context=".views.activities.CadastroActivity">
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
@@ -17,9 +17,9 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorblue"
+            android:background="@color/strong_orange"
             app:title="@string/cadastrarLogin"
-            app:titleTextColor="@android:color/white" />
+            app:titleTextColor="@color/strong_red" />
     </com.google.android.material.appbar.AppBarLayout>
 
 
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/appbar"
-        tools:context=".views.activitys.CadastroActivity">
+        tools:context=".views.activities.CadastroActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -135,14 +135,14 @@
 
             <Button
                 android:id="@+id/btnRegister"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="369dp"
+                android:layout_height="60dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="32dp"
                 android:layout_marginEnd="16dp"
-                android:textColor="@android:color/white"
-                android:backgroundTint="@color/colorlogin"
-                android:text="@string/registerlogin" />
+                android:backgroundTint="@color/strong_red"
+                android:text="@string/registerlogin"
+                android:textColor="@android:color/white" />
 
         </LinearLayout>
 

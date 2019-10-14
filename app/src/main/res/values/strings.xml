@@ -2,7 +2,7 @@
     <string name="app_name">DesafioAndroid</string>
     <string name="digital_food">Digital House Food</string>
     <string name="botao_login">LOG IN</string>
-    <string name="or">---------- OR ----------</string>
+    <string name="or">------------------ OR -------------------</string>
     <string name="register">REGISTER</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
@@ -19,4 +19,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="nome_do_prato">Nome do Prato</string>
     <string name="descricaoprato">descricao</string>
+    <string name="find_your_burguer">Find Your Burguer</string>
 </resources>

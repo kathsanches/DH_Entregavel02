@@ -4,19 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_light"
-    tools:context=".views.activitys.SplashActivity">
-
+    android:background="#FA9720"
+    tools:context=".views.activities.SplashActivity">
 
     <ImageView
-        android:id="@+id/imagemlogo"
+        android:id="@+id/imageBurguer"
         android:layout_width="wrap_content"
-        android:scaleType="centerCrop"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="148dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/comida" />
+        app:srcCompat="@drawable/burguer" />
 
+    <TextView
+        android:id="@+id/textLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="288dp"
+        android:fontFamily="@font/anton"
+        android:text="Find your Burguer"
+        android:textAlignment="center"
+        android:textColor="#FC940505"
+        android:textSize="40sp"
+        app:fontFamily="@font/anton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

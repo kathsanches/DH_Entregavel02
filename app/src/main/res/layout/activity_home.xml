@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackgroundGray"
-    tools:context=".views.activitys.HomeActivity">
+    tools:context=".views.activities.HomeActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
@@ -20,11 +20,11 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorblue"
+            android:background="@color/strong_orange"
             android:theme="@style/navIconColors"
             app:menu="@menu/menu_item"
-            app:title="@string/digital_food"
-            app:titleTextColor="@android:color/white" />
+            app:title="@string/find_your_burguer"
+            app:titleTextColor="@color/strong_red" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.recyclerview.widget.RecyclerView

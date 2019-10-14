@@ -8,4 +8,6 @@
     <color name="colorlogin">#FF5252</color>
     <color name="colorBackgroundGray">#DDDDDD</color>
     <color name="colorGray">#5A6978</color>
+    <color name="strong_red">#FC940505</color>
+    <color name="strong_orange">#FA9720</color>
 </resources>

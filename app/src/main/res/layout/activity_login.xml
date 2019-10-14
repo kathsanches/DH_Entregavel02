@@ -4,22 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.activitys.LoginActivity">
+    tools:context=".views.activities.LoginActivity">
+
 
     <TextView
         android:id="@+id/textlogin"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/colorblue"
+        android:background="@color/strong_orange"
         android:gravity="left|center"
         android:padding="10dp"
-        android:text="@string/digital_food"
-        android:textColor="@android:color/white"
+        android:text="Find Your Burguer"
+        android:textColor="#FC940505"
         android:textSize="20sp"
+        app:fontFamily="@font/anton"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayoutEmail"
@@ -70,19 +72,17 @@
 
     <Button
         android:id="@+id/botaoLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="400dp"
+        android:layout_height="69dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="124dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:backgroundTint="@color/colorlogin"
+        android:backgroundTint="@color/strong_red"
         android:text="@string/botao_login"
         android:textColor="@android:color/white"
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/textInputLayoutPassword" />
 
@@ -91,10 +91,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:text="@string/or"
         android:textAlignment="center"
         android:textSize="16dp"
@@ -105,15 +103,15 @@
 
     <Button
         android:id="@+id/botaoregistre"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_width="400dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="56dp"
         android:backgroundTint="@color/colorPrimary"
         android:text="@string/register"
         android:textColor="@android:color/white"
         android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewOR" />
 
